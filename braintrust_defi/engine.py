@@ -1,9 +1,9 @@
 from web3 import Web3, EthereumTesterProvider, HTTPProvider
 from web3.middleware import construct_sign_and_send_raw_middleware
-from .adapters.dydx import DydxPerpetualAdapter
-from .adapters.curve import CurveAdapter
-from .adapters.synthetix import SynthetixAdapter
-from .lib.infura import get_infura, get_infura_mainnet_url
+from braintrust_defi.adapters.dydx import DydxPerpetualAdapter
+from braintrust_defi.adapters.curve import CurveAdapter
+from braintrust_defi.adapters.synthetix import SynthetixAdapter
+from braintrust_defi.lib.infura import get_infura, get_infura_mainnet_url
 
 
 class BrainTrustEngine:

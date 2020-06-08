@@ -1,5 +1,5 @@
 from os.path import dirname, join
-from ..lib.artifacts import read_artifacts
+from braintrust_defi.lib.artifacts import read_artifacts
 
 this_dir = dirname(str(__file__))
 

@@ -1,7 +1,7 @@
 from os.path import dirname, join
 from json import loads
 import os
-from .artifacts import read_entire_file
+from braintrust_defi.lib.artifacts import read_entire_file
 
 this_dir = dirname(str(__file__))
 

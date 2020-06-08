@@ -2,8 +2,8 @@ from os.path import dirname, join
 from eth_account import Account
 from dydx.client import Client
 from web3 import Web3
-from ..lib.artifacts import read_artifacts
-from ..lib.infura import get_infura_mainnet_url
+from braintrust_defi.lib.artifacts import read_artifacts
+from braintrust_defi.lib.infura import get_infura_mainnet_url
 
 this_dir = dirname(str(__file__))
 
