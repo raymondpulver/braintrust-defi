@@ -1,0 +1,112 @@
+{
+    "contractName": "I_MakerOracle",
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "peek",
+            "outputs": [
+                {
+                    "internalType": "bytes32",
+                    "name": "",
+                    "type": "bytes32"
+                },
+                {
+                    "internalType": "bool",
+                    "name": "",
+                    "type": "bool"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "read",
+            "outputs": [
+                {
+                    "internalType": "bytes32",
+                    "name": "",
+                    "type": "bytes32"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "bar",
+            "outputs": [
+                {
+                    "internalType": "uint256",
+                    "name": "",
+                    "type": "uint256"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": true,
+            "inputs": [],
+            "name": "age",
+            "outputs": [
+                {
+                    "internalType": "uint32",
+                    "name": "",
+                    "type": "uint32"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "constant": false,
+            "inputs": [
+                {
+                    "internalType": "uint256[]",
+                    "name": "val_",
+                    "type": "uint256[]"
+                },
+                {
+                    "internalType": "uint256[]",
+                    "name": "age_",
+                    "type": "uint256[]"
+                },
+                {
+                    "internalType": "uint8[]",
+                    "name": "v",
+                    "type": "uint8[]"
+                },
+                {
+                    "internalType": "bytes32[]",
+                    "name": "r",
+                    "type": "bytes32[]"
+                },
+                {
+                    "internalType": "bytes32[]",
+                    "name": "s",
+                    "type": "bytes32[]"
+                }
+            ],
+            "name": "poke",
+            "outputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "function"
+        }
+    ],
+    "networks": {
+        "1": {
+            "links": {},
+            "address": "0x064409168198A7E9108036D072eF59F923dEDC9A",
+            "transactionHash": "0xac10932332a67f1d6e2638d21723399c76bc32fe50629206612da9d31edb19c0"
+        }
+    }
+}

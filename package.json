@@ -1,0 +1,25 @@
+{
+  "name": "braintrust",
+  "version": "0.1.0",
+  "description": "braintrust defi gryphon fork",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/braintrust/braintrust",
+  "author": "Raymond Pulver IV <raymondpulver@my.uri.edu>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "import:synthetix": "cross-env node scripts/import-synthetix",
+    "import:dydx": "cross-env node scripts/import-dydx",
+    "import:artifacts": "npm-run-all import:synthetix import:dydx"
+  },
+  "private": false,
+  "dependencies": {
+    "@dydxprotocol/perpetual": "^0.3.1",
+    "bluebird": "^3.7.2",
+    "cross-env": "^7.0.2",
+    "glob": "^7.1.6",
+    "mkdirp": "^1.0.4",
+    "ncp": "^2.0.0",
+    "npm-run-all": "^4.1.5",
+    "synthetix": "^2.21.15"
+  }
+}
