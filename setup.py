@@ -33,7 +33,7 @@ requirements = [
     "parsimonious==0.8.1",
     "pluggy==0.13.1",
     "protobuf==3.12.2",
-    "py==1.8.1",
+    "py==1.10.0",
     "pycryptodome==3.9.7",
     "pyparsing==2.4.7",
     "pytest==4.6.11",
