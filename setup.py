@@ -44,7 +44,7 @@ requirements = [
     "toml==0.10.1",
     "toolz==0.10.0",
     "tox==3.13.2",
-    "urllib3==1.25.9",
+    "urllib3==1.26.5",
     "varint==1.0.2",
     "virtualenv==20.0.21",
     "wcwidth==0.2.4",
