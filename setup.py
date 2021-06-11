@@ -49,7 +49,7 @@ requirements = [
     "virtualenv==20.0.21",
     "wcwidth==0.2.4",
     "web3==5.0.0",
-    "websockets==7.0",
+    "websockets==9.1",
     "zipp==3.1.0",
 ]
 
