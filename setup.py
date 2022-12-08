@@ -6,7 +6,7 @@ requirements = [
     "attrdict==2.0.1",
     "attrs==19.3.0",
     "base58==2.0.1",
-    "certifi==2020.4.5.2",
+    "certifi==2022.12.7",
     "chardet==3.0.4",
     "cytoolz==0.10.1",
     "distlib==0.3.0",
